@@ -1,6 +1,5 @@
-package com.java.demo_core.algo;
+package com.java.core.algo;
 
-import com.java.core.algo.ReverseString;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

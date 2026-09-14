@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>17</java.version>
+        <java.version>26</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -62,7 +62,15 @@
                     <argLine>-ea -XX:+EnableDynamicAgentLoading</argLine>
                 </configuration>
             </plugin>
-		</plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>26</source>
+                    <target>26</target>
+                </configuration>
+            </plugin>
+        </plugins>
 	</build>
 
 </project>

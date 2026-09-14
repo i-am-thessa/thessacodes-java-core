@@ -1,4 +1,4 @@
-package com.java.core.design.oop;
+package com.java.core.javadiff.java8.oop;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
